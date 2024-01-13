@@ -530,15 +530,21 @@ transform: scale(0.8);
 /* Mobile Media Query */
 
 @media screen and (max-width: 600px) { 
-    body {
+        .alldesignprocess{
+        height: 2000px;
+        }
+
         .designProcess{
+        display: flex;
         flex-direction: column;
-        max-height: 100px;}
+        outline: 1px solid red;}
+
         .grid1{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "csi1" "csd1";}
+        grid-template-rows: 1fr 1fr;} 
+        /* grid-template-areas: "csi1" "csd1";} */
+
         .grid2{
         display: grid;
         grid-template-columns: 1fr;
@@ -550,7 +556,6 @@ transform: scale(0.8);
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "csi3" "csd3";}
         }
-    }
 
 
 /* To put border around the img icon inside a class */
