@@ -104,6 +104,10 @@ p small {
     vertical-align: top;
 }
 
+.navigationBar li:hover {
+color: #9E7B9B;
+}
+
 #button1 {
     margin: 0px 50px 0px 0px;
     width: 200px;
@@ -491,7 +495,7 @@ cursor: pointer;}
 /* 6.Footer */
 
 footer{
-margin: 40px 0px 0px 0px;
+margin-top: 40px;
 flex-shrink: 0;
 background: var(--Dark-Blue, #001B2E);
 color: white;
@@ -499,7 +503,9 @@ color: white;
 height: 300px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr;}
+grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
 
 #buttonUp {
 width: 91px;
