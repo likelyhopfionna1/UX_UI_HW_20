@@ -1,3 +1,8 @@
+/* body */
+body {
+    margin: 0;
+}
+
 /* Fonts */
 h1 {font-family: SF Pro;
 font-size: 50px;
@@ -152,14 +157,15 @@ ul{
 /*  2.Hero Image  */
 .heroImage{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    /* grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto; */
     grid-template-rows: 500px;
+    justify-content: center;
 }
 
 .heroImg{
-    padding:0px 0px 600px 0px;
+    /* padding:0px 0px 1000px 0px; */
     text-align:center;
-    grid-column: 6 / span 6;
+    /* grid-column: 6 / span 6; */
     grid-row: 1;
     /* outline: 1px red solid; */
 }
@@ -167,20 +173,22 @@ ul{
 .content{
     grid-column: 1 / span 12;
     grid-row: 1;
-    margin: 20px 200px 0px 100px;
-    width: 800px;
+    /* margin: 20px 200px 0px 100px; */
+    /* width: 800px; */
     /* outline: 1px red solid; */
 }
 
 .mySkills {
-    width: 100%;
+    max-width: 1400px;
     display: grid;
-    margin: 0px 32px 0px 32px;
+    /* margin: 0px 32px 0px 32px; */
     /* min-height: 600px;
     width: 100%; */
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     grid-template-areas: "myskillsBar aboutMe";
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .heroImg > .openingSkills > h4 {
@@ -562,7 +570,6 @@ transform: scale(0.8);
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "csi3" "csd3";}
         }
-
 
 /* To put border around the img icon inside a class */
 /* .conclusion > img {
