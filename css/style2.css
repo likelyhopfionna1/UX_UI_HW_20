@@ -236,6 +236,14 @@ ul{
 }
 /*  Case Study 1 */
 
+.arrow{
+    float: right;
+}
+
+.hoverCS {
+    color:#F8E00A;
+}
+
 .grid1{
     display:grid;
     min-height: 428px;
@@ -434,6 +442,7 @@ cursor: pointer;}
     grid-row: 1;} */
 
 .boxes {
+    margin: 100px 0px 0px 0px;
     display: flex;
     justify-content: space-between;}
 
@@ -564,6 +573,7 @@ transform: scale(0.8);
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "csi2" "csd2";}
+        
         .grid3{
         display: grid;
         grid-template-columns: 1fr;
