@@ -564,11 +564,11 @@ transform: scale(0.8);
 
 /* Mobile Media Query */
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 800px) { 
         .designProcess{
         display: flex;
         flex-direction: column;
-        background-color: lightblue;}
+        }
 
         .grid1{
         display: grid;
